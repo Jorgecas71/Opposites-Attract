@@ -1,4 +1,22 @@
-# Instrucciones:
+Requirements
+Nodejs
+npm
+DevDependencies
+Vitest
+Installation
+$ npm install
+Tests
+Run test without watch mode
+
+$ npm run test
+Run test with watch mode
+
+$ npm run test-w
+Run test using vitest command
+
+$ npx vitest
+
+Instrucciones:
 Timmy y Sarah piensan que están enamorados, pero alrededor de donde viven, solo lo sabrán una vez que elijan una flor cada uno. Si una de las flores tiene un número par de pétalos y la otra tiene un número impar de pétalos, significa que están enamorados.
 
 Escribe una función que tome el número de pétalos de cada flor y devuelva verdadero si están enamorados y falso si no lo están.
@@ -7,7 +25,7 @@ Ejemplo de function:
 function isLove(petalsFlower1, petalsFlower2) { }
 
 Requisitos:
-- Se deberán testear los siguientes casos de uso
+Se deberán testear los siguientes casos de uso
 
 Input:
 1) Timmy : 1 / Sarah : 4

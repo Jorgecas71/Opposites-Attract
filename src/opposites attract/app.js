@@ -12,8 +12,6 @@ export function isLove(petalsFlower1, petalsFlower2) {
         return false;
     }
 }
-
-
 console.log(isLove(1, 4)); // true
 console.log(isLove(2, 2)); // false
 console.log(isLove(0, 1)); // true
